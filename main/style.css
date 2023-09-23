@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: none;
+}
+
+.footer {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.footer__menu {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+}
+.footer__menu__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__nav {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+  border-top: solid 1px grey;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  width: 100%;
+  height: 3vh;
+  padding-bottom: 7vh;
+}
+.header__herramientas {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5vw;
+  padding-top: 1vh;
+}
+.header__logo {
+  width: 225px;
+  height: 110px;
+}
+.header__logo__position {
+  display: flex;
+  justify-content: center;
+}
+.header__navegador {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 40px;
+  width: 10vw;
+  position: fixed;
+}
+.header__navegador__genero {
+  display: flex;
+  justify-content: space-around;
+}
+.header__navegador__genero__dato {
+  margin-bottom: 10px;
+}
+.header__navegador__genero__dato__hombre {
+  margin-left: 15px;
+  color: rgb(150, 150, 150);
+}
+.header__navegador__promo {
+  color: red;
+}
+
+.logobuscador {
+  width: 20px;
+  height: 20px;
+  margin: 0 1vh;
+}
+
+.logoperfil {
+  width: 20px;
+  height: 20px;
+  margin: 0 1vh;
+}
+
+.logocarrito {
+  width: 20px;
+  height: 20px;
+  margin: 0 1vh;
+}
+
+.main {
+  margin-top: 5vh;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+}
+
+.mainarticulos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.producto {
+  width: 540px;
+  height: 860px;
+  margin: 20px 20px;
+}/*# sourceMappingURL=style.css.map */
